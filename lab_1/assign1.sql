@@ -22,7 +22,7 @@ SELECT COUNT(eng) FROM student WHERE eng<70;
 
 
 -- 7. The Dept. of stem wants to know the college location of the university that does not provide engineering.
-
+SELECT loc FROM campus WHERE engg=0
 
 -- 8. What is the ratio of students in the campus that provides stem and does not provide stem (query and show
 -- ratio by calc yourself, no need to divide just num/denom)
